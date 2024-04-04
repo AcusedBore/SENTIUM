@@ -146,8 +146,8 @@
   
     .tagline {
       position: absolute;
-      top: 8rem;
-      left: 44.7rem;
+      top: 15%;
+      left: 48.3%;
       transform: translate(-50%, -50%); 
       z-index: 10; 
       font-weight: 800;
@@ -206,8 +206,8 @@
   
    ul#countdown {
     position: absolute;
-    top: 25rem;
-    left: 45.7rem;
+    top: 47%;
+    left: 49.5%;
     transform: translate(-50%, -50%); 
     z-index: 10; 
     width: 32rem;
@@ -322,8 +322,8 @@
   
   .coin{
     position: absolute;
-    bottom: 27rem;
-    left: 48rem;
+    bottom: 50%;
+    left: 118vh;
     transform: translate(50%, 50%);
     z-index: 10; 
     font-weight: 1000;
@@ -338,7 +338,7 @@
     width: 31rem;
     height: 32.5rem;
   }
-  
+ 
   .coin-title{
     font-style: normal;
     font-weight: bold;
@@ -947,7 +947,7 @@
   
   .version{
     padding-left: 30px;
-    padding-right: 70px;
+    padding-right: 15vh;
   }
   
   .footer-separetor{
@@ -960,7 +960,7 @@
   }
   
   .social{
-    padding-right: 70px;
+    padding-right: 15vh;
   }
   
   
