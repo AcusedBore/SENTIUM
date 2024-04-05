@@ -1273,7 +1273,7 @@ li .label {
   animation: fadeIn 2s ease-in-out forwards;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1500px) {
   .coin {
     bottom: 12vw;
     left: 73vw;
