@@ -160,12 +160,25 @@ body{
   
   .ico-section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     padding: 3rem; 
 }
 
 .ico-info {
+  display: flex;
+  flex-flow: column wrap;
     padding-top: 13rem;
     max-width: 50%;
+}
+
+.ico-timer{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logan{
@@ -205,6 +218,8 @@ body{
  }
 
  ul#countdown {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   top: 47%;
   left: 49.5%;
@@ -321,6 +336,9 @@ li .label {
 }
 
 .coin{
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
   position: absolute;
   bottom: 10vw;
   left: 68vw;
@@ -697,7 +715,7 @@ li .label {
 }
 
 .value{
-  margin-top: 16px;
+  margin-top: 6px;
   text-align: center;
   color: white;
   font-size: 13px;
@@ -930,6 +948,8 @@ li .label {
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -960,6 +980,11 @@ li .label {
 
 .social{
   padding-right: 5vw;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -1302,4 +1327,565 @@ li .label {
     top: 110vw;
     left: 25vw;
   }
+}
+
+@media (min-width: 1680px) and (min-height: 1050px) {
+  .coin {
+    bottom: 20vw;
+    left: 71vw;
+  }
+
+  .version{
+    padding-left: 30px;
+    padding-right: 6vw;
+  }
+
+  .social{
+    padding-right: 8vw;
+  }
+
+  .infosent{
+    top: 58vw;
+    left: 20vw;
+  }
+
+  .sentvantage{
+    top: 87vw;
+    left: 20vw;
+  }
+
+  .footerpage{
+    top: 110vw;
+    left: 25vw;
+  }
+
+  .value{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .logan{
+    font-size: 3.7vw;
+    max-width: 69%;
+    line-height: 65px;
+    margin-top: 3.8vw;
+  }
+
+  .increase{
+    font-size: 30px;
+  }
+
+  .ico-section{
+    font-size: 1.2vw;
+  }
+
+  .tooltip{
+    top: 38.8vw;
+    left: 18vw;
+  }
+  
+  .tooltip2{
+    top: 40.8vw;
+    left: 17.5vw;
+  }
+
+  .tooltip3{
+    top: 42.8vw;
+    left: 17vw;
+  }
+
+  .timer-buttons .BETA{
+    width: 12vw;
+    height: 2.8vw;
+    margin-right: 3vw;
+  }
+
+  .timer-buttons .PAPER{
+    width: 12vw;
+    height: 2.8vw;
+  }
+
+  #countdown li {
+    font-size: 5vw;
+  }
+
+  ul#countdown {
+    width: 40vw;
+  }
+
+  .help-link{
+    font-size: 1.2vw;
+  }
+
+  .tagline{
+    font-size: 1.5vw;
+    left: 47.7vw;
+  }
+
+  .box{
+    position: absolute;
+    top: 14vw;
+  }
+  
+}
+
+@media (min-width: 1600px) and (min-height: 900px) {
+  .coin {
+    bottom: 12vw;
+    left: 69vw;
+  }
+
+  .version{
+    padding-left: 30px;
+    padding-right: 6vw;
+  }
+
+  .social{
+    padding-right: 7vw;
+  }
+
+  .infosent{
+    top: 49vw;
+    left: 20vw;
+  }
+
+  .sentvantage{
+    top: 82vw;
+    left: 20vw;
+  }
+
+  .footerpage{
+    top: 110vw;
+    left: 25vw;
+  }
+
+  .value{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .logan{
+    font-size: 3.7vw;
+    max-width: 69%;
+    line-height: 65px;
+    margin-top: 2vw;
+  }
+
+  .increase{
+    font-size: 30px;
+  }
+
+  .ico-section{
+    font-size: 1.2vw;
+  }
+
+  .tooltip{
+    top: 38.8vw;
+    left: 18vw;
+  }
+  
+  .tooltip2{
+    top: 40.8vw;
+    left: 17.5vw;
+  }
+
+  .tooltip3{
+    top: 42.8vw;
+    left: 17vw;
+  }
+
+  #countdown li {
+    font-size: 4vw;
+  }
+
+  ul#countdown {
+    width: 35vw;
+  }
+
+  .help-link{
+    font-size: 1.2vw;
+  }
+
+  .tagline{
+    font-size: 1.5vw;
+    left: 47.7vw;
+  }
+
+  .box{
+    position: absolute;
+    top: 14vw;
+  }
+
+}
+
+@media (min-width: 1920px) and (min-height: 1200px) {
+  .coin {
+    bottom: 18vw;
+    left: 75vw;
+    height: 27vw;
+    width: 25vw;
+  }
+
+  .version{
+    padding-left: 30px;
+    padding-right: 8vw;
+  }
+
+  .social{
+    padding-right: 9vw;
+  }
+
+  .infosent{
+    top: 53vw;
+    left: 20vw;
+  }
+
+  .sentvantage{
+    top: 82vw;
+    left: 20vw;
+  }
+
+  .footerpage{
+    top: 105vw;
+    left: 25vw;
+  }
+
+  .value{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .logan{
+    font-size: 3.7vw;
+    max-width: 60%;
+    line-height: 65px;
+    margin-top: 8.2vw;
+  }
+
+  .increase{
+    font-size: 30px;
+  }
+
+  .ico-section{
+    font-size: 1.2vw;
+  }
+
+  .tooltip{
+    top: 38.8vw;
+    left: 18vw;
+  }
+  
+  .tooltip2{
+    top: 40.8vw;
+    left: 17.5vw;
+  }
+
+  .tooltip3{
+    top: 42.8vw;
+    left: 17vw;
+  }
+
+  #countdown li {
+    font-size: 4vw;
+  }
+
+  ul#countdown {
+    width: 35vw;
+  }
+
+  .help-link{
+    font-size: 1.2vw;
+  }
+
+  .tagline{
+    font-size: 1.5vw;
+    left: 47.7vw;
+  }
+
+  .box{
+    position: absolute;
+    top: 14vw;
+  }
+
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .coin {
+    bottom: 16vw;
+    left: 75vw;
+    height: 27vw;
+    width: 25vw;
+  }
+
+  .version{
+    padding-left: 30px;
+    padding-right: 8vw;
+  }
+
+  .social{
+    padding-right: 9vw;
+  }
+
+  .infosent{
+    top: 50vw;
+    left: 20vw;
+  }
+
+  .sentvantage{
+    top: 80vw;
+    left: 20vw;
+  }
+
+  .footerpage{
+    top: 103vw;
+    left: 25vw;
+  }
+
+  .value{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .logan{
+    font-size: 3.7vw;
+    max-width: 60%;
+    line-height: 65px;
+    margin-top: 5vw;
+  }
+
+  .increase{
+    font-size: 30px;
+  }
+
+  .ico-section{
+    font-size: 1.2vw;
+  }
+
+  .tooltip{
+    top: 35.5vw;
+    left: 18vw;
+  }
+  
+  .tooltip2{
+    top: 37.5vw;
+    left: 17.5vw;
+  }
+
+  .tooltip3{
+    top: 39.5vw;
+    left: 17vw;
+  }
+
+  #countdown li {
+    font-size: 4vw;
+  }
+
+  ul#countdown {
+    width: 35vw;
+  }
+
+  .help-link{
+    font-size: 1.2vw;
+  }
+
+  .tagline{
+    font-size: 1.5vw;
+    left: 47.7vw;
+  }
+
+  .box{
+    position: absolute;
+    top: 14vw;
+  }
+
+}
+
+@media (min-width: 2048px) and (min-height: 1080px) {
+  .coin {
+    bottom: 16vw;
+    left: 76vw;
+    height: 25.5vw;
+    width: 24vw;
+  }
+
+  .version{
+    padding-left: 30px;
+    padding-right: 8vw;
+  }
+
+  .social{
+    padding-right: 9vw;
+  }
+
+  .infosent{
+    top: 45vw;
+    left: 20vw;
+  }
+
+  .sentvantage{
+    top: 72vw;
+    left: 20vw;
+  }
+
+  .footerpage{
+    top: 95vw;
+    left: 25vw;
+  }
+
+  .value{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .logan{
+    font-size: 3.7vw;
+    max-width: 60%;
+    line-height: 65px;
+    margin-top: 5vw;
+  }
+
+  .increase{
+    font-size: 30px;
+  }
+
+  .ico-section{
+    font-size: 1.2vw;
+  }
+
+  .tooltip{
+    top: 33.6vw;
+    left: 18vw;
+  }
+  
+  .tooltip2{
+    top: 35.6vw;
+    left: 17vw;
+  }
+
+  .tooltip3{
+    top: 37.5vw;
+    left: 16.5vw;
+  }
+
+  #countdown li {
+    font-size: 4vw;
+  }
+
+  ul#countdown {
+    width: 35vw;
+  }
+
+  .help-link{
+    font-size: 1.2vw;
+  }
+
+  .tagline{
+    font-size: 1.5vw;
+    left: 47.7vw;
+  }
+
+}
+
+@media (min-width: 3840px) and (min-height: 2160px) {
+  .coin {
+    bottom: 16vw;
+    left: 76vw;
+    height: 25.5vw;
+    width: 24vw;
+  }
+
+  .version{
+    padding-left: 30px;
+    padding-right: 8vw;
+  }
+
+  .social{
+    padding-right: 9vw;
+  }
+
+  .infosent{
+    top: 45vw;
+    left: 20vw;
+  }
+
+  .sentvantage{
+    top: 72vw;
+    left: 20vw;
+  }
+
+  .footerpage{
+    top: 95vw;
+    left: 25vw;
+  }
+
+  .value{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .logan{
+    font-size: 3.7vw;
+    max-width: 60%;
+    line-height: 5vw;
+    margin-top: 5vw;
+  }
+
+  .increase{
+    font-size: 30px;
+  }
+
+  .ico-section{
+    font-size: 1.2vw;
+  }
+
+  .tooltip{
+    top: 33.6vw;
+    left: 18vw;
+  }
+  
+  .tooltip2{
+    top: 35.6vw;
+    left: 17vw;
+  }
+
+  .tooltip3{
+    top: 37.5vw;
+    left: 16.5vw;
+  }
+
+  #countdown li {
+    font-size: 4vw;
+  }
+
+  ul#countdown {
+    width: 35vw;
+  }
+
+  .help-link{
+    font-size: 1.2vw;
+  }
+
+  .tagline{
+    font-size: 1.5vw;
+    left: 47.7vw;
+  }
+
 }
